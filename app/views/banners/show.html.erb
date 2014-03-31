@@ -4,6 +4,11 @@
   <strong>Title:</strong>
   <%= @banner.title %>
 </p>
+
+<p>
+  <strong>Url:</strong>
+  <%= link_to @banner.url, @banner.url %>
+</p>
 <p>
   <%= image_tag @banner.picture.url %>
 </p>
