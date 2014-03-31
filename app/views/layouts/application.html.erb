@@ -7,6 +7,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<%= link_to_unless_current "Frames", frames_path %>
+| 
+<%= link_to_unless_current "Banners", banners_path %>
 
 <%= yield %>
 

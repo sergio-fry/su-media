@@ -49,3 +49,4 @@ group :development do
 end
 
 gem 'paperclip'
+gem 'fog'

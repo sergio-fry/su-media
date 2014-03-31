@@ -1,4 +1,5 @@
 SuMedia::Application.routes.draw do
+  root "frames#index"
   resources :frames
 
   resources :banners
