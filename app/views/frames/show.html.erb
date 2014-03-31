@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @frame.title %>
+</p>
+
+<p>
+  <strong>Width:</strong>
+  <%= @frame.width %>
+</p>
+
+<p>
+  <strong>Height:</strong>
+  <%= @frame.height %>
+</p>
+
+<%= link_to 'Edit', edit_frame_path(@frame) %> |
+<%= link_to 'Back', frames_path %>
