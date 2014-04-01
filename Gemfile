@@ -49,4 +49,5 @@ group :development do
 end
 
 gem 'paperclip'
+gem 'aws-sdk'
 gem 'fog'
