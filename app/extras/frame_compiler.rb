@@ -8,7 +8,7 @@ class FrameCompiler
   end
 
   def compile
-    frame.banners.each { |b| write_to_cloud(File.join(frame_path, banner_path(b)), open(b.picture.url).read) }
+    frame.banners.each { |b| write_to_cloud(banner_path(b), open(b.picture.url).read) }
     write_to_cloud(File.join(frame_path, "include.html"), build_include_page)
   end
 
