@@ -23,5 +23,10 @@
 </textarea>
 </p>
 
+<p><strong>Example:</strong><br />
+
+<iframe src="//s3.amazonaws.com/su-media-public/frames/frame-<%= @frame.id %>/include.html" frameborder="0" width="<%= @frame.width %>" height="<%= @frame.height %>" scrolling="no"></iframe>
+</p>
+
 <%= link_to 'Edit', edit_frame_path(@frame) %> |
 <%= link_to 'Back', frames_path %>

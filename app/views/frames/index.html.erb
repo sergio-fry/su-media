@@ -4,8 +4,6 @@
   <thead>
     <tr>
       <th>Title</th>
-      <th>Width</th>
-      <th>Height</th>
       <th></th>
       <th></th>
       <th></th>
@@ -15,9 +13,7 @@
   <tbody>
     <% @frames.each do |frame| %>
       <tr>
-        <td><%= frame.title %></td>
-        <td><%= frame.width %></td>
-        <td><%= frame.height %></td>
+        <td><%= frame.title %> (<%= frame.width %>x<%= frame.height %>)</td>
         <td><%= link_to 'Show', frame %></td>
         <td><%= link_to 'Edit', edit_frame_path(frame) %></td>
         <td><%= link_to 'Destroy', frame, method: :delete, data: { confirm: 'Are you sure?' } %></td>

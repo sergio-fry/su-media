@@ -25,7 +25,7 @@ class FrameCompiler
   <body>
     <script src="http://yandex.st/jquery/2.1.0/jquery.min.js"></script>
 
-    <div id="container" style="width: #{frame.width}px; height: #{frame.height}; overflow: hidden"></div>
+    <div id="container" style="width: #{frame.width}px; height: #{frame.height}px; overflow: hidden"></div>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
